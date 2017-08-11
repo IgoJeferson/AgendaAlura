@@ -1,10 +1,12 @@
 package br.com.alura.igojeferson.agenda.modelo;
 
+import java.io.Serializable;
+
 /**
  * Created by IgoJeferson on 2017-08-11.
  */
 
-public class Aluno {
+public class Aluno implements Serializable{
     private Long id;
     private String nome;
     private String endereco;
